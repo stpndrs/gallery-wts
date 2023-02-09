@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#title {
+    letter-spacing: 1rem;
+    margin: auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.baris {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+footer {
+    color: #FCF6f5;
+    background-color: #02343F;
+    text-align: center;
+    padding: 10px;
+}
